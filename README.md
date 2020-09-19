@@ -1,5 +1,7 @@
 # spade-nir2rgb
-This is an implementation of Near IfraRed image to RGB image translation using SPADE and gray scale image approximated self- reconstruction.
+This is an implementation of Near IfraRed （NIR） image to RGB image translation using SPADE and gray scale image approximated self- reconstruction.
+This approach deal with both NIR image colorization and NIR-RGB image fusion. Where the NIR colorization application is prepared for VCIP 2020 Grand Challenge on NIR Image Colorization.
+
 Near InfraRed (NIR) image is robust to ambient light and have clear textures. we propose
 a two source conditioned RGB image generative model for fusing NIR image textures and
 low light RGB image colors. This method solve the training objective contradiction exists in the previously proposed method [ACGAN].
